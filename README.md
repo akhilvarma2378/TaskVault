@@ -61,18 +61,26 @@ TaskVault/
 ```bash
 git clone https://github.com/your-username/taskvault.git
 cd taskvault
+```
+
 2️⃣ Install Dependencies
+```bash
 npm install
+```
 
 3️⃣ Create a .env File
+```bash
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+```
 
 4️⃣ Start the Server
+```bash
 npm start
+```
 
 
-The server will start on: http://localhost:5000
+The server will start on: http://localhost:6000
 
 🧠 API Endpoints
 👤 User Authentication Routes (/api/users)
@@ -155,8 +163,7 @@ If valid, it attaches the logged-in user info to req.user.
 
 🧾 Example Workflow
 
-Register → /api/users/register
-
+Register → /api/users/signup
 Login → /api/users/login
 
 Copy JWT token → use in Authorization header
@@ -168,17 +175,12 @@ Command	Description
 npm start	Start the server
 npm run dev	Start with nodemon (if installed)
 npm install	Install all dependencies
-📜 License
 
+📜 License
 This project is licensed under the MIT License.
 
 👨‍💻 Author
-
 Akhil Varma Nadimpalli
 Node.js | Express | MongoDB | JWT | REST APIs
 
 
----
-
-✅ You can paste this directly as your `README.md` file in the project root.  
-Would you like me to add **API testing examples (Postman collection format)** too?
